@@ -1,14 +1,10 @@
 {
-    "manifest_version": 2,
     "name": "Guilty Gear WASD Converter",
+    "description":"Guilty Gear Notation to WASD Converter",
     "version": "0.1",
-    "app": {
-        "background": {
-            "scripts": [
-                "background.js",
-                "convert.js",
-                "window.js"
-            ]
-        }
+    "manifest_version": 2,
+    "browser_action": {
+        "default_popup": "popup.html",
+        "default_icon": "images/icon.png"
     }
 }
