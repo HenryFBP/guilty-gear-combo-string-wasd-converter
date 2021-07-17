@@ -1,0 +1,5 @@
+- Add controller support
+- add rebind support
+- add better icons?
+  - make sure user can still copy text
+- on popup close, keep text entered by the user
