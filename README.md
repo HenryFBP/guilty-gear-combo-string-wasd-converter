@@ -13,9 +13,8 @@ Now I don't have to think about how to read combos!
 
 ## Install
 
-1. Install from <>
-2. Go to <chrome://apps/>
-3. Click on the app
+1. Install from (TBD)
+3. Click on the app in the upper right to open a little pop up
 4. Paste in some combo strings!
 
 ## Dev't
