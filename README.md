@@ -13,7 +13,7 @@ Now I don't have to think about how to read combos!
 
 ## Install
 
-1. Install from (TBD)
+1. Install from (TBD, waiting from Chrome Store approval)
 3. Click on the app in the upper right to open a little pop up
 4. Paste in some combo strings!
 
