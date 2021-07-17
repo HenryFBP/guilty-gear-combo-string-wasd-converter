@@ -9,6 +9,8 @@ So, I made a chrome app that converts normal notation into default keyboard nota
 
 Now I don't have to think about how to read combos!
 
+![](screenshot.png)
+
 ## Install
 
 1. Install from <>
