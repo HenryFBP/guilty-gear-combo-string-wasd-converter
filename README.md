@@ -11,6 +11,10 @@ Now I don't have to think about how to read combos!
 
 ![](images/screenshot.png)
 
+## Contributing
+
+If you fix/improve something, submit a PR and I'll likely accept. No license, IDK what you use this for. Just attribute me visibly.
+
 ## Install
 
 1. Install from (TBD)
