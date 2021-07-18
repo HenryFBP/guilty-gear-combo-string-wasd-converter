@@ -9,7 +9,7 @@ So, I made a chrome app that converts normal notation into default keyboard nota
 
 Now I don't have to think about how to read combos!
 
-![](images/screenshot.png)
+![](src/images/screenshot.png)
 
 ## Contributing
 
@@ -18,8 +18,8 @@ If you fix/improve something, submit a PR and I'll likely accept. No license, ID
 ## Install
 
 1. Install from (TBD, waiting from Chrome Store approval)
-3. Click on the app in the upper right to open a little pop up
-4. Paste in some combo strings!
+2. Click on the app in the upper right to open a little pop up
+3. Paste in some combo strings!
 
 ## Dev't
 
