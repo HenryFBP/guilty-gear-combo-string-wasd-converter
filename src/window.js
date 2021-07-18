@@ -1,5 +1,7 @@
 DEFAULT_COMBOSTRING = '5K > 6S > 236K';
 
+DEFAULT_KEYMAP= new DefaultWASDButtonMap();
+
 function selection() {
     return window.getSelection().toString()
 }
@@ -21,7 +23,7 @@ function setConvertedComboString(s) {
 }
 
 function doConvert() {
-    let converted = convert_combostring(getComboString());
+    let converted = convert_combostring(getComboString(), DEFAULT_KEYMAP);
     console.log(converted);
 
     setConvertedComboString(converted);

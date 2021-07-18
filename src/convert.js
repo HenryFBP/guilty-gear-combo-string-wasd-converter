@@ -7,48 +7,71 @@
 1 2 3
 */
 
-//start of default keys
-const UP = "W";
-const LEFT = "A";
-const DOWN = "S";
-const RIGHT = "D";
+//conversion table according to the community
 
-const PUNCH = "U";
-const KICK = "J";
-const SLASH = "I";
-const HEAVYSLASH = "K";
+class GenericButtonMap {
+    constructor() {
+        this.foo = "bar";
+    }
 
-const DUST = "O";
+    generateConversionTable() {
+        return {
+            "1": this.LEFTDOWN,
+            "2": this.DOWN,
+            "3": this.RIGHTDOWN,
+    
+            "4": this.LEFT,
+            "5": this.NEUTRAL,
+            "6": this.RIGHT,
+    
+            "7": this.LEFTUP,
+            "8": this.UP,
+            "9": this.RIGHTUP,
+    
+            "P": this.PUNCH,
+            "K": this.KICK,
+            "S": this.SLASH,
+            "H": this.HEAVYSLASH,
+            "D": this.DUST
+        };
+    }
+    
+    
+}
 
-const DASH = "Q";
-//end of default keys
+class DefaultWASDButtonMap extends GenericButtonMap {
+    constructor() {
+        super();
+    }
 
-const ROMANCANCEL = "E"; //custom, added by me
-const PSYCHBURST = "R"; //custom, added by me
+    UP = "W";
+    LEFT = "A";
+    DOWN = "S";
+    RIGHT = "D";
+    NEUTRAL = "";
 
-const keymap = {
-    "1": LEFT + DOWN,
-    "2": DOWN,
-    "3": RIGHT + DOWN,
+    LEFTDOWN=this.LEFT+this.DOWN;
+    LEFTUP=this.LEFT+this.UP;
+    RIGHTDOWN=this.RIGHT+this.DOWN;
+    RIGHTUP=this.RIGHT+this.UP;
 
-    "4": LEFT,
-    "5": "",
-    "6": RIGHT,
+    PUNCH = "U";
+    KICK = "J";
+    SLASH = "I";
+    HEAVYSLASH = "K";
 
-    "7": LEFT + UP,
-    "8": UP,
-    "9": RIGHT + UP,
+    DUST = "O";
 
-    "P": PUNCH,
-    "K": KICK,
-    "S": SLASH,
-    "H": HEAVYSLASH,
-    "D": DUST,
+    DASH = "Q";
 
-};
+    ROMANCANCEL = "E"; //custom, added by me
+    PSYCHBURST = "R"; //custom, added by me
+}
 
-function convert_combostring(combostring) {
+function convert_combostring(combostring, buttonMap) {
     ret = "";
+
+    keymap=buttonMap.generateConversionTable();
 
     // console.log(combostring);
 
