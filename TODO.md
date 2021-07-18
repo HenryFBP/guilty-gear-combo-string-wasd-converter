@@ -2,4 +2,5 @@
 - add rebind support
 - add better icons?
   - make sure user can still copy text
-- on popup close, keep text entered by the user
+- use React JS
+  - <https://medium.com/litslink/how-to-create-google-chrome-extension-using-react-js-5c9e343323ff>
