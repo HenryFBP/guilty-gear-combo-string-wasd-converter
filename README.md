@@ -17,8 +17,8 @@ If you fix/improve something, submit a PR and I'll likely accept. No license, ID
 
 ## Install
 
-1. Install from (TBD, waiting from Chrome Store approval)
-2. Click on the app in the upper right to open a little pop up
+1. Install from <https://chrome.google.com/webstore/detail/guilty-gear-wasd-converte/agfcifkinoekaakeilkfilnbiamfkkon?hl=en&authuser=0>
+2. Click on the app in the upper right to open a little pop up (see this ![popup](src/images/popup.png))
 3. Paste in some combo strings!
 
 ## Dev't
@@ -27,4 +27,4 @@ Clone this repo and go to <chrome://extensions/> and "Load Unpacked". Google "ch
 
 ## Changing the keybinds
 
-Currently, there is no way to do this other than editing `convert.js`.
+Currently, there is no way to do this other than editing `convert.js`. This is a planned feature
