@@ -1,5 +1,7 @@
 (from <https://medium.com/litslink/how-to-create-google-chrome-extension-using-react-js-5c9e343323ff>)
 
+Run `yarn` then `yarn run build` and then the unpacked extension will be placed in `build/`, you can import from there using <chrome://extensions/>.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
