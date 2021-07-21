@@ -23,7 +23,7 @@ If you fix/improve something, submit a PR and I'll likely accept. No license, ID
 
 ## Dev't
 
-Clone this repo and go to <chrome://extensions/> and "Load Unpacked" the folder containing `manifest.json`. Google "chrome load unpacked extension" if stuck.
+Clone this repo and go to <chrome://extensions/> and "Load Unpacked" the folder `src/` containing `manifest.json`. Google "chrome load unpacked extension" if stuck.
 
 ## Changing the keybinds
 
