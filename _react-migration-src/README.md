@@ -2,6 +2,8 @@
 
 Run `yarn` then `yarn run build` and then the unpacked extension will be placed in `build/`, you can import from there using <chrome://extensions/>.
 
+Alternatively, after you build, you can run `serve -s build` and just visit <http://localhost:5000>.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
