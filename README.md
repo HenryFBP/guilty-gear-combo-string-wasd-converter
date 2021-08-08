@@ -11,6 +11,10 @@ Now I don't have to think about how to read combos!
 
 ![](src/images/screenshot.png)
 
+## See also
+
+- <https://greasyfork.org/en/scripts/14731-fighting-game-notationizer>
+
 ## Contributing
 
 If you fix/improve something, submit a PR and I'll likely accept. No license, IDK what you use this for. Just attribute me visibly.
