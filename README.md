@@ -1,4 +1,11 @@
 # guilty-gear-combo-string-wasd-converter
+
+## See also
+
+- <https://greasyfork.org/en/scripts/14731-fighting-game-notationizer>
+
+## Summary
+
 GG Combo String WASD Converter Chrome Extension
 
 I am switching from controller to keyboard.
@@ -10,10 +17,6 @@ So, I made a chrome app that converts normal notation into default keyboard nota
 Now I don't have to think about how to read combos!
 
 ![](src/images/screenshot.png)
-
-## See also
-
-- <https://greasyfork.org/en/scripts/14731-fighting-game-notationizer>
 
 ## Contributing
 
