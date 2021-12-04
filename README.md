@@ -1,5 +1,9 @@
 # guilty-gear-combo-string-wasd-converter
 
+##
+
+note: THIS PLUGIN IS DEAD, as I am lazy and extremely busy. Fork away. Or PR/etc. Hope it works in 2022! B)
+
 ## See also
 
 - <https://greasyfork.org/en/scripts/14731-fighting-game-notationizer>
